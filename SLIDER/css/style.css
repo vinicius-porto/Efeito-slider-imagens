@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.container .slider {
+  background-image: url(../img/start.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50rem;
+  height: 30rem;
+  transition: 4s all ease;
+}
+.container-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.container-btn .slider-btn {
+  width: 2rem;
+  height: 2rem;
+  margin: 0.6rem;
+  border-radius: 2rem;
+  border: 0rem;
+  outline: none;
+  background-color: gray;
+  cursor: pointer;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  position: relative;
+  top: 2rem;
+  font-family: "Poppins", sans-serif;
+}
